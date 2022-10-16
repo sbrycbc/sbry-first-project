@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif ;
+    background-image: url("./kamilie.png");
+    font-size: 22px;
+    width: 95vw;
+
+
+}
+
+
+h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: navy;
+    text-align: center;
+}
+
+#grüner-tee{
+    color: rgb(92, 14, 180);
+}
+
+.schwarzer-tee{
+    color: rgba(121, 86, 10, 0.9);
+}
+
+.kamelier-tee{
+    color: #CD0000;
+}
+
+
+.teeArten{
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 15px auto;
+    padding: 7px;
+    width:80vw;
+}
+
+.fixed-home {
+    position: fixed;
+    bottom: 45px;
+    right: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px 12px;
+    z-index: 99;
+
+  }
+
+  .home {
+    color:orange
+  }
+
+  .home:hover {
+        animation : homeChatLink 5s linear 1s infinite alternate; 
+  }
+
+  @keyframes homeChatLink {
+    0%{
+      color:orange
+    }
+    20% {
+      color:red
+    }
+    40% {
+      color:yellowgreen
+    }
+    60% {
+      color:red
+    }
+    80% {
+      color:yellowgreen
+    }
+    95% {
+      color:red
+    }
+  }

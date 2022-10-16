@@ -1,0 +1,94 @@
+.gotterPara-1{
+    color: red;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.gotterPara-2{
+    color: rgb(47, 161, 47);
+    font-family: sans-serif;
+}
+.himmel{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-content: center; 
+}
+.götter{
+    width: 300px;
+    border: 5px solid greenyellow;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+h2{
+    text-shadow: 1px 1px rgb(231, 213, 142);
+    
+}
+#heading{
+    text-align: center;
+    margin-bottom:  40px;
+}
+#headingImg{
+    position: relative;
+    top: 20px;
+}
+#headingTitle{
+    position: absolute;
+    top:40px;
+    color: white;
+    width: 100%;
+}
+#headingPara{
+    position: absolute;
+    top: 430px;
+    right: 520px ;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+}
+
+.fixed-home {
+    position: fixed;
+    bottom: 45px;
+    right: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px 12px;
+    z-index: 99;
+  }
+
+  .home {
+    color:orange
+  }
+
+  .home:hover {
+        animation : homeChatLink 5s linear 1s infinite alternate; 
+  }
+
+  @keyframes homeChatLink {
+    0%{
+      color:orange
+    }
+    20% {
+      color:red
+    }
+    40% {
+      color:yellowgreen
+    }
+    60% {
+      color:red
+    }
+    80% {
+      color:yellowgreen
+    }
+    95% {
+      color:red
+    }
+  }
+
+

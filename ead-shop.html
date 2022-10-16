@@ -11,16 +11,196 @@
     <link rel="stylesheet" href="./ead-shop.css" />
     <title>EAD Shop</title>
   </head>
-  <body>
+  <body id="home-link">
     <video autoplay muted loop id="myVideo">
-    <source src="./public/einfachallesdrin.mp4" type="video/mp4"></video>
+      <source src="./public/einfachallesdrin.mp4" type="video/mp4" />
+    </video>
 
     <ul class="navbarGroup1">
       <li><a href="#home-link">Home</a></li>
-      <li><a href="#projekte-link">Projekte</a></li>
+ 
       <li><a href="#shop-link">Shop</a></li>
-      <li><a href="#über uns-link">Über Uns</a></li>
-      <li><a href="#contact-link">Contact</a></li>
+      <li><a href="#überuns-link">Über Uns</a></li>
+      <li><a href="#contact-link">Kontaktieren</a></li>
+      <li><a href="./projects/project.html">Projekte</a></li>
     </ul>
+
+    <ul class="navbarGroup2">
+      <li>
+        <a href="#"><i class="fas fa-user-circle"></i>Anmelden</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+      </li>
+    </ul>
+
+    <div class="titleLogo">
+      <h1>
+        EINFACH<br />
+        <span style="color: white">
+          ALLES <br />
+          DRIN
+        </span>
+      </h1>
+      <button class="shopNow">JETZT KAUFEN</button>
+    </div>
+
+    <section>
+      <div class="socialMedia">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="fixed-home"> <a href="#home-link"><i style="color:orange" class="fas fa-home"></i></a></div>
+      <button class="chat">CHAT</button>
+    </section>
+
+    <section id="shop-link">
+      <div class="neuColl">
+        <h1 class="neuCollTitle">
+          NEUE <br />
+          KOLLEK- <br />
+          TION
+        </h1>
+        <img class="neuImg" src="./public/neuekollection.png" alt="" />
+        <button class="neuCollButton">ALLE ANZEIGEN</button>
+      </div>
+
+      <div class="neuCollSammlung">
+        <div class="neuCollProduct">
+          <img
+            class="neuCollImg"
+            style="width: 250px; height: 350px"
+            src="./public/product-1.png"
+            alt="ead_citystyle_weste"
+          />
+          
+          <h2>EAD Citystyle <br> Weste</h2>
+          <h3 class="preis"><b>Preis:</b>20 €</h3>
+          
+        </div>
+        <div class="neuCollProduct">
+          <img
+          class="neuCollImg"
+            style="width: 250px; height: 350px"
+            src="./public/product-2.jpg"
+            alt="ead_bergstyle_weste"
+          />
+          <h2>EAD Bergstyle <br> Weste</h2>
+          <h3 class="preis"><b>Preis:</b>20 €</h3>
+
+        </div>
+        <div class="neuCollProduct">
+          <img
+            class="neuCollImg"
+            style="width: 250px; height: 350px"
+            src="./public/product-3.png"
+            alt="ead_bergstyle_weste"
+          />
+          <h2>EAD Bergstyle <br> Weste</h2>
+          <h3 class="preis"><b>Preis:</b>20 €</h3>
+          
+        </div>
+        <div class="neuCollProduct">
+          <img
+            class="neuCollImg"
+            style="width: 250px; height: 350px"
+            src="./public/product-4.jpg"
+            alt="ead_citystyle_gürtal"
+          />
+          <h2>EAD Citystyle <br> Gürtel</h2>
+          <h3 class="preis"><b>Preis:</b>20 €</h3>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="überuns-link" class="überUns">
+      <div class="überUnsDiv">
+        <h1 class="überUnsTitle">
+          ÜBER <br />
+          UNS
+        </h1>
+
+        <p class="überUnsDesc">
+          #einfachallessdrin<br />Wir sind ein Wir sind ein junges Team,
+          gegründet von Laufverrückten. Darüber hinaus bringt er unseren
+          Anspruch zum Ausdruck, stets die starke LEISTUNG zu haben, sei es beim
+          Lauf oder der Entwicklung neuer Produkte. Wir bieten Lauftaschen für
+          gemütlichen und sorglossen Lauf. Wir sind für sie da, egal ob auf der
+          Straße, auf den Berg , an der Strand, an jede Wettbewerbe, in Ihre
+          jede Versuch.. immer dabei, <br />einfach alles drin.
+        </p>
+        <button class="überUnsButton">UNSERE STORY</button>
+      </div>
+    </section>
+    <div id="contact-link" class="contact">
+      <h1 class="contactHeading">Kontaktieren</h1>
+      <div class="contactLeft">
+      <div class="sendEmailDiv">
+        <input type="name" placeholder="Name hier eingeben" />
+        <input type="number" placeholder="Phonenummer hier eingeben" />
+        <input type="email" placeholder="Email hier eingeben" />
+        <a class="sendEmailButton" href="mailto:email@example.com, secondemail@example.com"><button>Send Email</button></a>
+      </div>
+      <div class="callUs">
+        <a href="tel:+493333333333"><button>Call Us</button></a>
+      </div>
+    </div>
+
+      <div class="contactRight">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79465.14904961255!2d7.400223153309111!3d51.50797049093285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91760bff07a11%3A0x427f28131548750!2sDortmund!5e0!3m2!1sen!2sde!4v1665056661331!5m2!1sen!2sde"
+        width="200"
+        height="220"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div class="footerLeft">
+        <a href="#">FAQ</a>
+        <a href="#">News</a>
+        <a href="#">Kontakt</a>
+        <a href="#home-link"><i style="color:red" class="fas fa-home"></i> Nach Oben</a>
+      </div>
+      <div class="footerRight">
+      <div class="footerRightUp">
+        <h3>Newsletter abonnieren</h3>
+        <input type="email" placeholder="Email hier eingeben" />
+        <button>Jetzt abonnieren</button>
+      </div>
+      <div class="footerRightDown">
+      <div class="footerRightDownLeft">
+        <a href="#"><i style="color:rgb(105, 53, 53)" class="fab fa-facebook"></i></a>
+
+        <a href="#"><i style="color:rgb(129, 56, 56)" class="fab fa-twitter"></i></a>
+
+        <a href="#"><i style="color:rgb(117, 41, 41)" class="fab fa-instagram"></i></a>
+      </div>
+      <div class="footerRightDownRight">
+
+        <div class="footerRightDownRightUp">
+          <a href="">Impressum</a>
+          <a href="">Datenschutz</a>
+          <a href="">AGB</a>
+        </div>
+        <div class="footerRightDownRightDown">
+          <i class="fas fa-copyright"></i> 2022 EAD. Erstellt mit
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+        </div>
+
+    </div>
+    </div>
+      </div>
+    </div>
   </body>
 </html>
