@@ -14,4 +14,4 @@
 
 # Page Link
 
-- EAD Shop [https://sbrycbc.github.io/sbry-first-project/]
+- [EAD Shop](https://sbrycbc.github.io/sbry-first-project/, "My First Project EAD Shop")
